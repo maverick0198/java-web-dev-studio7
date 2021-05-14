@@ -1,6 +1,22 @@
 package org.launchcode.studio7;
 
-public class CD {
+public class CD extends BaseDisc implements OpticalDisc{
+
+
+
+    public CD(String name, int totalCapacity, String discType) {
+        super(name, totalCapacity, discType);
+    }
+
+    @Override
+    public void spinDisc() {
+
+    }
+
+    @Override
+    public void readData() {
+
+    }
 
     // TODO: Implement your custom interface.
 
